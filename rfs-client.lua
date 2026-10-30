@@ -1,2 +1,0 @@
-return {["dependencies"]={["rfs"]="^0.1.0",},["entry"]="rfs-client.lua",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/rfs-client/main.lua"]="rfs-client.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/rfs-client/main.lua"]="338782d367f420f530b3a4cfce215dca91f3d4272d7179e63bf8172bfef7e013",},["manifestVersion"]=1,["name"]="rfs-client",["type"]="application",["version"]="0.1.0",}
-
