@@ -1,30 +1,22 @@
 # LPM Packages
 
-Official package registry for [LPM](https://github.com/p4ncak3s-R0ck/LPM), the CC:Tweaked Lua package manager.
+Official package collection for [LPM](https://github.com/p4ncak3s-R0ck/LPM).
 
-```text
-lpm init
-lpm install dns
-lpm install rfs
-lpm install hello
-hello
+Install with `lpm install <name>` after `lpm init`.
+
+Packages include DNS, DNS Server, DNS Records, RFS, RFS Client, RFS Server, Update and Updater. `hello.lua` demonstrates a standalone single-file application.
+
+A package may use `<name>/manifest.lua`, `<name>/index.lua` plus manifests pinned to commits, or a standalone `<name>.lua` containing an LPM metadata comment. See the LPM documentation for package formats and proxy file sources.
+
+## Test the package collection
+
+Clone LPM alongside this repository, install Python's `lupa`, and set `LPM_ROOT` to the absolute path of its `lpm` directory. Then run:
+
+```sh
+python dns-records/tests/run.py
+python dns-records/tests/install.py
+python rfs/tests/run.py
+python updater/tests/run.py
 ```
 
-Requires the LPM build with single-file packages (PR #8 or the merged main branch).
-
-| Package | Purpose |
-| --- | --- |
-| `dns` | Authenticated DNS over Rednet |
-| `dns-server` | DNS server application |
-| `dns-records` | DNS record editor |
-| `rfs` | Rednet file sharing library |
-| `rfs-client` | RFS client command |
-| `rfs-server` | RFS server command |
-| `updater` | DNS/RFS root-file updater library |
-| `update` | Root-file updater command |
-| `lpm` | LPM package manager |
-| `hello` | Standalone single-file application example |
-
-Each `<name>.lua` is either a literal package manifest or a standalone Lua program with an LPM metadata comment. Proxy manifests pin source files to immutable commits in the LPM source repository and include SHA-256 checksums. Package definitions live here; source history and implementation remain in LPM. Manifests are parsed as data, never executed during installation. See the [package format documentation](https://github.com/p4ncak3s-R0ck/LPM/blob/main/lpm/README.md).
-
-Package downloads require HTTP access to `api.github.com` and `raw.githubusercontent.com`. Runtime Rednet services require modems and configured CC:Tweaked computers.
+The tests use a Lua 5.2 CC:Tweaked simulation. Runtime Rednet communication still requires CC:Tweaked computers in Minecraft.
