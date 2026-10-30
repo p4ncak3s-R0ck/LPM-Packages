@@ -10,7 +10,7 @@ A package may use `<name>/manifest.lua`, `<name>/index.lua` plus manifests pinne
 
 ## Test the package collection
 
-Clone LPM alongside this repository, install Python's `lupa`, and set `LPM_ROOT` to the absolute path of its `lpm` directory. Then run:
+Clone LPM alongside this repository, install Python's `lupa`, and set `LPM_ROOT` to the absolute root directory of the LPM checkout. Then run:
 
 ```sh
 python dns-records/tests/run.py
