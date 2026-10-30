@@ -1,0 +1,2 @@
+return {["dependencies"]={},["description"]="Authenticated DNS over Rednet",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns/src/dns.lua"]="dns.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns/src/dns.lua"]="61f190fec892989a7efb49bde6cf3e622f3252360b1630e7be78f03643113ba7",},["manifestVersion"]=1,["modules"]={["dns"]="dns.lua",},["name"]="dns",["type"]="library",["version"]="2.0.0",}
+

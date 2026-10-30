@@ -1,0 +1,2 @@
+return {["dependencies"]={["dns"]="^2.0.0",},["description"]="Authenticated DNS record administration",["entry"]="dns-records.lua",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns-records/main.lua"]="dns-records.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns-records/main.lua"]="829771c8d5e7b5afe62a668582d82ae174eb95a0a52938a9b7d6489936a71d88",},["manifestVersion"]=1,["name"]="dns-records",["type"]="application",["version"]="1.0.0",}
+

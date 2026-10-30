@@ -1,0 +1,2 @@
+return {["dependencies"]={["updater"]="^0.1.0",},["entry"]="update.lua",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/update/main.lua"]="update.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/update/main.lua"]="447ec51ec74db86a319153c417b81f3858dc8cf2c6355feb3615e8d0467fe2ac",},["manifestVersion"]=1,["name"]="update",["type"]="application",["version"]="0.1.0",}
+

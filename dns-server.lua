@@ -1,0 +1,2 @@
+return {["dependencies"]={["dns"]="^2.0.0",},["entry"]="server.lua",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns-server/server.lua"]="server.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/2f2ca11ed416e9d8e7e0cd5f0acf3c24dc120e96/dns-server/server.lua"]="cb9f49047cb7e2b179bfbc740937940b9071fef4943a7efc9f1266e7e1f9aab2",},["manifestVersion"]=1,["name"]="dns-server",["type"]="application",["version"]="2.0.0",}
+

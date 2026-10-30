@@ -1,0 +1,2 @@
+return {["dependencies"]={},["entry"]="lpm.lua",["files"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/430a247a2c72b80aca117f5c20766fe935d98099/lpm/lpm.lua"]="lpm.lua",},["hashes"]={["https://raw.githubusercontent.com/p4ncak3s-R0ck/LPM/430a247a2c72b80aca117f5c20766fe935d98099/lpm/lpm.lua"]="17223e360c1e8cc9edfb6b1e23c879252a7a7767db89634e108ca0bd5e0674fc",},["manifestVersion"]=1,["name"]="lpm",["type"]="application",["version"]="0.2.0",}
+
