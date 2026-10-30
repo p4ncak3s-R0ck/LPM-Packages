@@ -76,7 +76,7 @@ function require(n)
         return req,pkg
     end}
 end
-local core=assert(hostLoadfile((os.getenv('LPM_ROOT') or '../LPM/lpm')..'/lpm.lua'))('__lpm_test')
+local core=assert(hostLoadfile((os.getenv('LPM_ROOT') or '../LPM')..'/lpm.lua'))('__lpm_test')
 local data=core.data
 local function normalRun(root,args,packageName)
     local env=setmetatable({}, {__index=_G}); env._G=env
