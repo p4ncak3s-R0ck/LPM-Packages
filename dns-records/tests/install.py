@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 from lupa.lua52 import LuaRuntime
 root = Path(__file__).resolve().parents[1]
-lpm = Path(os.environ.get('LPM_ROOT', root.parent.parent / 'LPM/lpm')).resolve()
+lpm = Path(os.environ.get('LPM_ROOT', root.parent.parent / 'LPM')).resolve()
 os.chdir(lpm)
 runtime = LuaRuntime(unpack_returned_tuples=True)
 dns_manifest = root.parent / 'dns/manifest.lua'
