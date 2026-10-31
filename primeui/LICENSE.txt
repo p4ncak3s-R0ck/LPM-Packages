@@ -1,0 +1,1 @@
+PrimeUI is donated to the public domain under CC0. Feel free to use any portion of the code as desired, though I'd appreciate leaving a notice that it came from PrimeUI.
