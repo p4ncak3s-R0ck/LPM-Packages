@@ -1,0 +1,6 @@
+local vector = require("hump.vector")
+local timer = require("hump.timer").new()
+local point = vector(3, 4)
+print(point:len())
+timer:after(1, function() print("done") end)
+timer:update(1)

@@ -1,0 +1,1025 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "name": "basalt",
+      "version": "1.7.1",
+      "description": "Full graphical application framework for CC:Tweaked",
+      "upstream": "https://github.com/Pyroxenium/Basalt",
+      "revision": "14c0630c1e110c5b507534e19e6c9607ba10df3e",
+      "dependencies": {},
+      "modules": {
+        "basalt": "init.lua"
+      },
+      "files": [
+        {
+          "source": "docs/versions/basalt-1.7.1.lua",
+          "file": "init.lua",
+          "upstream_sha256": "355c75330c9857abd6fecdecb86b126459d923a5bb9f7ef1f25ee7e5d7cb84d2",
+          "sha256": "355c75330c9857abd6fecdecb86b126459d923a5bb9f7ef1f25ee7e5d7cb84d2"
+        }
+      ],
+      "notes": "Uses the upstream self-contained Basalt 1.7.1 release bundle, not an installer or the separate Basalt 2 API. Requires an advanced color computer; autoUpdate runs the event loop.",
+      "manifest_sha256": "0a65d408ad97917a1d8c8fef75ddf4a8713725e3aec40fa5fc68be5a9eea3a48",
+      "license_sha256": "85815f5a7eff09313aa4ef6aef8976bcd933da87b43aef4bd94f503d4571dffd"
+    },
+    {
+      "name": "basexx",
+      "version": "0.4.1",
+      "description": "Base64, Base32, hex and other binary-text encodings",
+      "upstream": "https://github.com/aiq/basexx",
+      "revision": "b4ee13f6503499dc52c2d349a81826ee933db43c",
+      "dependencies": {},
+      "modules": {
+        "basexx": "init.lua"
+      },
+      "files": [
+        {
+          "source": "lib/basexx.lua",
+          "file": "init.lua",
+          "upstream_sha256": "6f8241efd8ea7affafdd00f433c317ed88151d87089b13ae4f94a421d4789445",
+          "sha256": "6f8241efd8ea7affafdd00f433c317ed88151d87089b13ae4f94a421d4789445"
+        }
+      ],
+      "notes": "Encoding is not encryption.",
+      "manifest_sha256": "10b090d6084737ece7f6806dd7ad3cc26305e59a6afb06ea004cc642d4fcb541",
+      "license_sha256": "a1826a43c9e04f9e9b2e5d26d636c656812483bcd513618eec9d72cee69d446b"
+    },
+    {
+      "name": "bigfont",
+      "version": "5.0.0",
+      "description": "Large terminal text using ComputerCraft drawing characters",
+      "upstream": "https://github.com/ReconnectedCC/cc-rom",
+      "revision": "a8d60a0b8bd8f0ff00995008225ffd277f20adff",
+      "dependencies": {},
+      "modules": {
+        "bigfont": "init.lua"
+      },
+      "files": [
+        {
+          "source": "bigfont-source.lua",
+          "file": "init.lua",
+          "upstream_sha256": "d2a89f115e7a69682030ef5ea7d960569c6ce58fbffd972d89ba739464d16085",
+          "sha256": "d2a89f115e7a69682030ef5ea7d960569c6ce58fbffd972d89ba739464d16085"
+        }
+      ],
+      "notes": "https://github.com/ReconnectedCC/cc-rom\nWojbie Bigfont 5.0, mirrored by ReconnectedCC. Source and original copyright/disclaimer are preserved verbatim. Requires a CraftOS terminal; sizes 4-6 may yield during generation.",
+      "manifest_sha256": "be54c981a4296e6ede7150b29f5e7d2aa5b08982f5ea4be71ca5db989b59e25f",
+      "license_sha256": "58275389f84869a175600069f657a4eafb049b32995aa992a8800f17dc40c195"
+    },
+    {
+      "name": "binaryheap",
+      "version": "0.4.0",
+      "description": "Binary heaps and priority queues",
+      "upstream": "https://github.com/Tieske/binaryheap.lua",
+      "revision": "5527c544c01d63497ed5cdfe209436a4a72bad0f",
+      "dependencies": {},
+      "modules": {
+        "binaryheap": "init.lua"
+      },
+      "files": [
+        {
+          "source": "src/binaryheap.lua",
+          "file": "init.lua",
+          "upstream_sha256": "f3b3e6d53bda8197e0ef6973b2778a565029eb68acae5d0e0c19b52295d6577b",
+          "sha256": "f3b3e6d53bda8197e0ef6973b2778a565029eb68acae5d0e0c19b52295d6577b"
+        }
+      ],
+      "notes": "",
+      "manifest_sha256": "8cd4af19299c08c75f98f604aefa22b07823bd4864de959b8a0429781de924c9",
+      "license_sha256": "ca71b66281168a296d65ac72f41a9309ba81ea537e6792ee8e328a1faa1d094d"
+    },
+    {
+      "name": "bump",
+      "version": "3.1.7",
+      "description": "Spatial indexing and axis-aligned collision detection",
+      "upstream": "https://github.com/kikito/bump.lua",
+      "revision": "95d9e40b8aee295fc9d9b78ca214a829d6c21555",
+      "dependencies": {},
+      "modules": {
+        "bump": "init.lua"
+      },
+      "files": [
+        {
+          "source": "bump.lua",
+          "file": "init.lua",
+          "upstream_sha256": "6c2bbe15bd7ddf582a5d338358df7a55aadd5829ba720be4bafc9f083791ce8b",
+          "sha256": "6c2bbe15bd7ddf582a5d338358df7a55aadd5829ba720be4bafc9f083791ce8b"
+        }
+      ],
+      "notes": "Uses coordinates only; no L\u00d6VE dependency.",
+      "manifest_sha256": "041a196fdd362ae225e04d77cf61fe7644e2259fab81c29a60ac105b946f3a3b",
+      "license_sha256": "04a19830e33a974e3244c8200c54d6a41be32fc8517fb54fad921d290478d970"
+    },
+    {
+      "name": "cbor",
+      "version": "1.0.0",
+      "description": "CBOR binary serialization",
+      "upstream": "https://www.zash.se/lua-cbor.html",
+      "revision": "sha256:3f964b37770dcbc0b2622cd194f9485b6f3327ea65234126e03ce992f8d6b1e8",
+      "dependencies": {},
+      "modules": {
+        "cbor": "init.lua"
+      },
+      "files": [
+        {
+          "source": "cbor.lua",
+          "file": "init.lua",
+          "upstream_sha256": "985089600879c0a7ba82c092cf065b975c9a565752fb0c10760406bbec14d262",
+          "sha256": "82ef53b60bf6ea0e080ea734ce5bdf09535b519a49f740702210ff3b6f23c1ba"
+        }
+      ],
+      "notes": "https://www.zash.se/lua-cbor.html\nSource: LuaRocks lua-cbor 1.0.0 source rock. LPM patch falls back to ordinary getmetatable when debug is unavailable. Uses pure Lua number/bit fallbacks; native big-number extensions are not included. IEEE-754 integer precision limits apply.",
+      "manifest_sha256": "73241c85c357c1b07e248020c8f459990c867f59c65305109f251d3b8cea3035",
+      "license_sha256": "3fa51357b0171b4b3ae5cd6164be31c6de10c36ddae182994b4467d09ccea5f1"
+    },
+    {
+      "name": "ccryptolib",
+      "version": "1.2.0",
+      "description": "Cryptographic primitives required by ECNet2",
+      "upstream": "https://github.com/migeyel/ccryptolib",
+      "revision": "14489aa1ec408f8a07e1292be5ef91dfe8567c74",
+      "dependencies": {},
+      "modules": {
+        "ccryptolib.sha256": "ccryptolib/sha256.lua"
+      },
+      "files": [
+        {
+          "source": "ccryptolib/aead.lua",
+          "file": "ccryptolib__aead.lua",
+          "upstream_sha256": "738c69c55a2894ffde108267dbdc4ae2d953d6b3122dbc03002389fe65fb67a0",
+          "sha256": "738c69c55a2894ffde108267dbdc4ae2d953d6b3122dbc03002389fe65fb67a0"
+        },
+        {
+          "source": "ccryptolib/blake3.lua",
+          "file": "ccryptolib__blake3.lua",
+          "upstream_sha256": "a495f9ab1c7ffaeeb6a273788adce9ba2fbe2012a5ba46bd8bce0624698982d1",
+          "sha256": "a495f9ab1c7ffaeeb6a273788adce9ba2fbe2012a5ba46bd8bce0624698982d1"
+        },
+        {
+          "source": "ccryptolib/chacha20.lua",
+          "file": "ccryptolib__chacha20.lua",
+          "upstream_sha256": "a741161fba6bcf04556554aa42b7b304e4b639f01b53601d462907df39cd6dac",
+          "sha256": "a741161fba6bcf04556554aa42b7b304e4b639f01b53601d462907df39cd6dac"
+        },
+        {
+          "source": "ccryptolib/config.lua",
+          "file": "ccryptolib__config.lua",
+          "upstream_sha256": "bc95f607825536e21f6bc8d936990cbd1c997fe6641ee031aaef972a11371287",
+          "sha256": "bc95f607825536e21f6bc8d936990cbd1c997fe6641ee031aaef972a11371287"
+        },
+        {
+          "source": "ccryptolib/ed25519.lua",
+          "file": "ccryptolib__ed25519.lua",
+          "upstream_sha256": "15af5a1773347460c59a47d2635e1d6e67ae7f9940b896b8f7740b1f378ea5e0",
+          "sha256": "15af5a1773347460c59a47d2635e1d6e67ae7f9940b896b8f7740b1f378ea5e0"
+        },
+        {
+          "source": "ccryptolib/internal/curve25519.lua",
+          "file": "ccryptolib__internal__curve25519.lua",
+          "upstream_sha256": "8730d8f2b7970c835e3a2a42816a8879fee1cc318dca85bacaca0b7b873e8cab",
+          "sha256": "8730d8f2b7970c835e3a2a42816a8879fee1cc318dca85bacaca0b7b873e8cab"
+        },
+        {
+          "source": "ccryptolib/internal/edwards25519.lua",
+          "file": "ccryptolib__internal__edwards25519.lua",
+          "upstream_sha256": "c943e22757dcf339b847d699bb90662cec5f50c624921aef9fb7ffbbc66f59d8",
+          "sha256": "c943e22757dcf339b847d699bb90662cec5f50c624921aef9fb7ffbbc66f59d8"
+        },
+        {
+          "source": "ccryptolib/internal/fp.lua",
+          "file": "ccryptolib__internal__fp.lua",
+          "upstream_sha256": "543ac4a1f9cb374a707ed63f94ff32b0341e495ccbb8c6ef5d8a936039cd7c08",
+          "sha256": "543ac4a1f9cb374a707ed63f94ff32b0341e495ccbb8c6ef5d8a936039cd7c08"
+        },
+        {
+          "source": "ccryptolib/internal/fq.lua",
+          "file": "ccryptolib__internal__fq.lua",
+          "upstream_sha256": "4161d0fe692ed3c8a82a4d72cce4e9ead7b7405a09c0b51d02d87c6054d7113b",
+          "sha256": "4161d0fe692ed3c8a82a4d72cce4e9ead7b7405a09c0b51d02d87c6054d7113b"
+        },
+        {
+          "source": "ccryptolib/internal/hw.lua",
+          "file": "ccryptolib__internal__hw.lua",
+          "upstream_sha256": "c1420f387520ce054e0fb2e41c45e246daebda3d38c23a75a71fbfdec666b246",
+          "sha256": "c1420f387520ce054e0fb2e41c45e246daebda3d38c23a75a71fbfdec666b246"
+        },
+        {
+          "source": "ccryptolib/internal/mp.lua",
+          "file": "ccryptolib__internal__mp.lua",
+          "upstream_sha256": "d6b955cdc6edbc7dcce667b612492f4e3620fee424ce4b8681fa3daa997a1074",
+          "sha256": "d6b955cdc6edbc7dcce667b612492f4e3620fee424ce4b8681fa3daa997a1074"
+        },
+        {
+          "source": "ccryptolib/internal/packing.lua",
+          "file": "ccryptolib__internal__packing.lua",
+          "upstream_sha256": "12ceb7323c616289071a3d5e255cf0dade7a7532580155f91b7ac3047bb59476",
+          "sha256": "12ceb7323c616289071a3d5e255cf0dade7a7532580155f91b7ac3047bb59476"
+        },
+        {
+          "source": "ccryptolib/internal/sha512.lua",
+          "file": "ccryptolib__internal__sha512.lua",
+          "upstream_sha256": "989affb1c13828a299195574faa56f3a5d6498c65c739ead7da5d8c50e4e7e37",
+          "sha256": "989affb1c13828a299195574faa56f3a5d6498c65c739ead7da5d8c50e4e7e37"
+        },
+        {
+          "source": "ccryptolib/internal/util.lua",
+          "file": "ccryptolib__internal__util.lua",
+          "upstream_sha256": "711be5e43900fc3af46c61e812bd64c48abcc6b78d698eb9fb82f0285eef6844",
+          "sha256": "711be5e43900fc3af46c61e812bd64c48abcc6b78d698eb9fb82f0285eef6844"
+        },
+        {
+          "source": "ccryptolib/poly1305.lua",
+          "file": "ccryptolib__poly1305.lua",
+          "upstream_sha256": "7184ab3a15c855034d1472e57b6432561e86b33b6c7eaba14863a870219c8a69",
+          "sha256": "7184ab3a15c855034d1472e57b6432561e86b33b6c7eaba14863a870219c8a69"
+        },
+        {
+          "source": "ccryptolib/random.lua",
+          "file": "ccryptolib__random.lua",
+          "upstream_sha256": "bd55dc49f579bf808ea3cca624218e8651fa1da658ba8242a2bd948212f59f48",
+          "sha256": "bd55dc49f579bf808ea3cca624218e8651fa1da658ba8242a2bd948212f59f48"
+        },
+        {
+          "source": "ccryptolib/sha256.lua",
+          "file": "ccryptolib__sha256.lua",
+          "upstream_sha256": "956557af41b419e18c5214d9ed337fb905531e23de4b7f53bfa6a8699f52c64e",
+          "sha256": "956557af41b419e18c5214d9ed337fb905531e23de4b7f53bfa6a8699f52c64e"
+        },
+        {
+          "source": "ccryptolib/util.lua",
+          "file": "ccryptolib__util.lua",
+          "upstream_sha256": "cdce1c0e75a4e56097853e4aa85fb76366866078e4694db00ebc958785c96caf",
+          "sha256": "cdce1c0e75a4e56097853e4aa85fb76366866078e4694db00ebc958785c96caf"
+        },
+        {
+          "source": "ccryptolib/x25519.lua",
+          "file": "ccryptolib__x25519.lua",
+          "upstream_sha256": "f8618a0641c48721f21ea1dfc63a06eafb75efc4be6fbcc6a2939dc80a55c72b",
+          "sha256": "f8618a0641c48721f21ea1dfc63a06eafb75efc4be6fbcc6a2939dc80a55c72b"
+        },
+        {
+          "source": "ccryptolib/x25519c.lua",
+          "file": "ccryptolib__x25519c.lua",
+          "upstream_sha256": "1dcf554322d946a426bc04cfb4936ab740aa75078fa7209b6ac1b032d4fbe222",
+          "sha256": "1dcf554322d946a426bc04cfb4936ab740aa75078fa7209b6ac1b032d4fbe222"
+        }
+      ],
+      "notes": "Dependency package for ECNet2. Initialize ccryptolib.random with a trusted entropy source before using secret-key operations. Installation never initializes random state or contacts external entropy services. See upstream README for init and initWithTiming tradeoffs.",
+      "manifest_sha256": "6928a158bf79344f3c97f680ba6280baa02dba4e0e848b17c4e0c59f61177c60",
+      "license_sha256": "623ba31784b519f69723a296836782e8aedfaec3e9402dfc045bb735ed502824"
+    },
+    {
+      "name": "cron",
+      "version": "2.0.0",
+      "description": "Update-driven delayed and repeating callbacks",
+      "upstream": "https://github.com/kikito/cron.lua",
+      "revision": "bedcb48355ce99a9df37090c9304de356cf73b42",
+      "dependencies": {},
+      "modules": {
+        "cron": "init.lua"
+      },
+      "files": [
+        {
+          "source": "cron.lua",
+          "file": "init.lua",
+          "upstream_sha256": "a3d050d37bbfd116d2490298d9768de8670fd079dff44e18cc8ee708c93d1012",
+          "sha256": "d902140be8a7bd2e11309df20be42874ed6de1cf1b70362aa807e61c3ceefbb9"
+        }
+      ],
+      "notes": "This is not OS cron. Advance timers explicitly with elapsed real seconds. LPM adaptation uses table.unpack on modern CraftOS.",
+      "manifest_sha256": "e2f22b4bdfac76fb11b20f7b01d000b7987e4d4c2846b75912c282c2ca428b3b",
+      "license_sha256": "78e3e82c7437456fb0dbddcfa0111b9d6cc372df3d752b45d6491e062865e5f6"
+    },
+    {
+      "name": "csv",
+      "version": "0.1.0",
+      "description": "CSV and delimited-text reading with an RFC-style row encoder",
+      "upstream": "https://github.com/geoffleyland/lua-csv",
+      "revision": "09557e4608b02d136b9ae39a8fa0f36328fa1cec",
+      "dependencies": {},
+      "modules": {
+        "csv": "init.lua"
+      },
+      "files": [
+        {
+          "source": "lua/csv.lua",
+          "file": "csv__reader.lua",
+          "upstream_sha256": "b067fbdc3d964faef423f14d01c2629f7db12465711008e92cd82728a510e72f",
+          "sha256": "b067fbdc3d964faef423f14d01c2629f7db12465711008e92cd82728a510e72f"
+        },
+        {
+          "file": "init.lua",
+          "sha256": "3603cb8721106414a7e4c15667958194ee57be8e166d695b33937f1b5be0a902",
+          "source": "LPM adapter"
+        }
+      ],
+      "notes": "Upstream lua-csv provides the reader. LPM adds csv.encode(rows) for rectangular arrays of strings, finite numbers and booleans; comma-separated CRLF output doubles embedded quotes. Files use the standard CraftOS io API. The encoder rejects sparse or keyed top-level row collections as well as inconsistent cells.",
+      "manifest_sha256": "a28b7b149cd6c3a95a75c4de02764be8c7f6b4958457bf4ee4aaa001518fffd2",
+      "license_sha256": "6b353d7d7949b2e813fc537279683130f70ec568adf10a0d4f6b175899a6f9ed"
+    },
+    {
+      "name": "deque",
+      "version": "0.1.0",
+      "description": "Efficient double-ended queues",
+      "upstream": "https://github.com/MCJack123/LuaDS",
+      "revision": "31f1d5cb1669c71b2e59f304438a47db4f6d4cd0",
+      "dependencies": {},
+      "modules": {
+        "deque": "init.lua"
+      },
+      "files": [
+        {
+          "source": "Deque.lua",
+          "file": "init.lua",
+          "upstream_sha256": "51178aed53a481810f8557150a914d7189525d269f126d397481e0e3816ba94a",
+          "sha256": "eb784800903d5dae7a18ef7439ea351a0d77d3470c360456cff7dfec94f8a45a"
+        }
+      ],
+      "notes": "Upstream LuaDS Deque snapshot. The internal expect import is adapted to the built-in cc.expect module. Corrected upstream shift() length accounting and find() logical indexes after front operations.",
+      "manifest_sha256": "7e274e42eb1f1ec35cd90f8b7270979db22159d00879add7586a12e9bc3e32b3",
+      "license_sha256": "635c7902e5c5c3d22dc4a45bdc5b4af0fc69ba5f46e961afad1bb9c692ee17c5"
+    },
+    {
+      "name": "dkjson",
+      "version": "2.11.0",
+      "description": "JSON with explicit null preservation and formatted output",
+      "upstream": "https://dkolf.de/dkjson-lua/",
+      "revision": "sha256:197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+      "dependencies": {},
+      "modules": {
+        "dkjson": "init.lua"
+      },
+      "files": [
+        {
+          "source": "dkjson.lua",
+          "file": "init.lua",
+          "upstream_sha256": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+          "sha256": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481"
+        }
+      ],
+      "notes": "https://dkolf.de/dkjson-lua/\nSource: official dkjson 2.11 release. Uses the pure Lua parser with no LPeg dependency. Pass json.null explicitly to decode to preserve null.",
+      "manifest_sha256": "6657a7e9b7d039ba8347b5b60ca00cec8862c52853daffa3adc906200cc5e1c1",
+      "license_sha256": "122357de1602bd254eb51f2e451f4f8004e64d6ddb6a3ebc49274a764910b80e"
+    },
+    {
+      "name": "ecnet2",
+      "version": "0.1.0",
+      "description": "Encrypted modem connections for CC:Tweaked",
+      "upstream": "https://github.com/migeyel/ecnet",
+      "revision": "15dcf3e6d396523f7273d67e00cc24e5bc52c8c8",
+      "dependencies": {
+        "ccryptolib": "^1.2.0"
+      },
+      "modules": {
+        "ecnet2": "ecnet2/init.lua"
+      },
+      "files": [
+        {
+          "source": "ecnet2/address_encoder.lua",
+          "file": "ecnet2__address_encoder.lua",
+          "upstream_sha256": "c0f9ec8face403f024870ccfd8093aa0e1170ce720a93ce2435e911a05832e1d",
+          "sha256": "c0f9ec8face403f024870ccfd8093aa0e1170ce720a93ce2435e911a05832e1d"
+        },
+        {
+          "source": "ecnet2/cipher_state.lua",
+          "file": "ecnet2__cipher_state.lua",
+          "upstream_sha256": "a9637d2ee84976c3e312583d7733e36f8f1d1e9c82321f01413478ac21662f7f",
+          "sha256": "a9637d2ee84976c3e312583d7733e36f8f1d1e9c82321f01413478ac21662f7f"
+        },
+        {
+          "source": "ecnet2/class.lua",
+          "file": "ecnet2__class.lua",
+          "upstream_sha256": "7223269921c5aba6b7d3f2ffdcbdb6bf0d2355a71dc2e5136f6afca2a81b584b",
+          "sha256": "7223269921c5aba6b7d3f2ffdcbdb6bf0d2355a71dc2e5136f6afca2a81b584b"
+        },
+        {
+          "source": "ecnet2/connection.lua",
+          "file": "ecnet2__connection.lua",
+          "upstream_sha256": "44b13336a9790f2ea79cf0c3e8daff8e97300833c2ef5cbfa18d9cc1d89a5a3f",
+          "sha256": "44b13336a9790f2ea79cf0c3e8daff8e97300833c2ef5cbfa18d9cc1d89a5a3f"
+        },
+        {
+          "source": "ecnet2/constants.lua",
+          "file": "ecnet2__constants.lua",
+          "upstream_sha256": "e90aafe013b70a44f0b64fb4a6a4c693887454ed08f596d10bd55603bace684d",
+          "sha256": "e90aafe013b70a44f0b64fb4a6a4c693887454ed08f596d10bd55603bace684d"
+        },
+        {
+          "source": "ecnet2/ecnetd.lua",
+          "file": "ecnet2__ecnetd.lua",
+          "upstream_sha256": "70b7ce82acfac46e13e00a0809a5b20f9681561dc77643ee1456b8c0293a0343",
+          "sha256": "70b7ce82acfac46e13e00a0809a5b20f9681561dc77643ee1456b8c0293a0343"
+        },
+        {
+          "source": "ecnet2/handshake_state.lua",
+          "file": "ecnet2__handshake_state.lua",
+          "upstream_sha256": "e4e43034e217b874cc64febcdad0c3068add6fe1a89c122a9236fc8a523522bb",
+          "sha256": "e4e43034e217b874cc64febcdad0c3068add6fe1a89c122a9236fc8a523522bb"
+        },
+        {
+          "source": "ecnet2/identity.lua",
+          "file": "ecnet2__identity.lua",
+          "upstream_sha256": "0d5711b6c5a7e32cb2cd1a4ea1af71c7248b819ac5ba56be039de2a7dad600c1",
+          "sha256": "0d5711b6c5a7e32cb2cd1a4ea1af71c7248b819ac5ba56be039de2a7dad600c1"
+        },
+        {
+          "source": "ecnet2/init.lua",
+          "file": "ecnet2__init.lua",
+          "upstream_sha256": "27422d733970ca1ec4c472f5beb732253dc22be0908bcaa3923a2b4356d34541",
+          "sha256": "27422d733970ca1ec4c472f5beb732253dc22be0908bcaa3923a2b4356d34541"
+        },
+        {
+          "source": "ecnet2/listener.lua",
+          "file": "ecnet2__listener.lua",
+          "upstream_sha256": "7a40557f09fecc9ef25e55502cc9a44576ad74e7682d5e0528fc2227555245f5",
+          "sha256": "7a40557f09fecc9ef25e55502cc9a44576ad74e7682d5e0528fc2227555245f5"
+        },
+        {
+          "source": "ecnet2/modems.lua",
+          "file": "ecnet2__modems.lua",
+          "upstream_sha256": "ce72524e4dde7865c1a52130f93d89aad404e8b5e1697cca97cc899911964962",
+          "sha256": "ce72524e4dde7865c1a52130f93d89aad404e8b5e1697cca97cc899911964962"
+        },
+        {
+          "source": "ecnet2/protocol.lua",
+          "file": "ecnet2__protocol.lua",
+          "upstream_sha256": "7a6a1ef196908098836e0657e9c813723eb335179b8891ca6b36a0eedaec351c",
+          "sha256": "7a6a1ef196908098836e0657e9c813723eb335179b8891ca6b36a0eedaec351c"
+        },
+        {
+          "source": "ecnet2/symmetric_state.lua",
+          "file": "ecnet2__symmetric_state.lua",
+          "upstream_sha256": "07fa09045c9c8b8b97098ac845c347c8fe11b9827c2d34c5cfb1f4969e891153",
+          "sha256": "07fa09045c9c8b8b97098ac845c347c8fe11b9827c2d34c5cfb1f4969e891153"
+        },
+        {
+          "source": "ecnet2/uid.lua",
+          "file": "ecnet2__uid.lua",
+          "upstream_sha256": "0193aed22b20ecc82390f791910378aeaac076c81b49765054a6049e2e460bd6",
+          "sha256": "0193aed22b20ecc82390f791910378aeaac076c81b49765054a6049e2e460bd6"
+        }
+      ],
+      "notes": "Includes all protocol and identity modules. Initialize ccryptolib.random before creating secret identities or connections, open your modem, and run ecnet2.daemon alongside application code. No modem or HTTP activity is started by installation.",
+      "manifest_sha256": "c33e19e9a7c960f9af69cb4bc6b8ec9626585c4c93af4cc1fff250ad52b029a1",
+      "license_sha256": "18f00f2ca1ef9d09369a0c2809f0d6737b09011bde3e72c7769d21fda761dd3e"
+    },
+    {
+      "name": "hump",
+      "version": "0.4.0",
+      "description": "Standalone timers, signals and two-dimensional vectors",
+      "upstream": "https://github.com/vrld/hump",
+      "revision": "08937cc0ecf72d1a964a8de6cd552c5e136bf0d4",
+      "dependencies": {},
+      "modules": {
+        "hump.timer": "hump/timer.lua",
+        "hump.signal": "hump/signal.lua",
+        "hump.vector": "hump/vector.lua"
+      },
+      "files": [
+        {
+          "source": "timer.lua",
+          "file": "hump__timer.lua",
+          "upstream_sha256": "8931203b027ecce889692e67323e7f333881fb230ed9dd735c785f5e3a7def03",
+          "sha256": "8931203b027ecce889692e67323e7f333881fb230ed9dd735c785f5e3a7def03"
+        },
+        {
+          "source": "signal.lua",
+          "file": "hump__signal.lua",
+          "upstream_sha256": "4f311197119177453d8759add39531905da2d3590a7e3a7befc618e46f31b051",
+          "sha256": "4f311197119177453d8759add39531905da2d3590a7e3a7befc618e46f31b051"
+        },
+        {
+          "source": "vector.lua",
+          "file": "hump__vector.lua",
+          "upstream_sha256": "70a4d9437e0c7bdf718160eb4a3464f54705129b854f1c9bd60a5adea8d197cc",
+          "sha256": "70a4d9437e0c7bdf718160eb4a3464f54705129b854f1c9bd60a5adea8d197cc"
+        }
+      ],
+      "notes": "Includes only timer, signal and vector. L\u00d6VE-dependent camera, gamestate and other modules are deliberately excluded. Require the documented hump.* modules.",
+      "manifest_sha256": "d02f1c6d663021a2024c95e8895b2d40a97e1d77ef8d6e3c4ff3244f7ef52c65",
+      "license_sha256": "7eff7cf5ba6263f1ccc780954e7e0a58cf3a2e8d206d37c7147a274be9040816"
+    },
+    {
+      "name": "inifile",
+      "version": "1.1.0",
+      "description": "INI configuration file parsing and writing",
+      "upstream": "https://github.com/bartbes/inifile",
+      "revision": "f283d4a842729c2a3f587e4c20e824519b36e495",
+      "dependencies": {},
+      "modules": {
+        "inifile": "init.lua"
+      },
+      "files": [
+        {
+          "source": "inifile.lua",
+          "file": "init.lua",
+          "upstream_sha256": "a48a75448c13725c576cd85d16a1cf4821acdc951daaea2427da8aac74bac4a4",
+          "sha256": "19cd761d4fac85c3baf8e538631e89f6056ca551b4c22aee8d66dce519de37cd"
+        }
+      ],
+      "notes": "Supports io-backed CraftOS files and the memory backend. LPM patch ensures the final memory line is parsed even without a trailing newline.",
+      "manifest_sha256": "601acc2461aa83d16f753f1179b10e7bce3076e9bd47cd7d9f9bcbbb139de25f",
+      "license_sha256": "0a1e35c54bd21b6752d25c66ce3554f6b1d82b1fee7642cb6960965ce700160e"
+    },
+    {
+      "name": "inspect",
+      "version": "3.1.0",
+      "description": "Readable nested-table output for debugging",
+      "upstream": "https://github.com/kikito/inspect.lua",
+      "revision": "a8ca3120dfec48801036eaeff9335ab7a096dd24",
+      "dependencies": {},
+      "modules": {
+        "inspect": "init.lua"
+      },
+      "files": [
+        {
+          "source": "inspect.lua",
+          "file": "init.lua",
+          "upstream_sha256": "656e4be83802750cfe13156810f7990d49893c86518ed5d882f0709d2901dfc5",
+          "sha256": "656e4be83802750cfe13156810f7990d49893c86518ed5d882f0709d2901dfc5"
+        }
+      ],
+      "notes": "Uses its pure Lua fallback without optional LuaJIT or compat53 modules.",
+      "manifest_sha256": "493add2675e2bb4486113fd99e2d5ab6cab9f220f506c34ee7e6c5b7baab63c6",
+      "license_sha256": "63b70945acf23f644c0d2d0f150a2b05630d47f0d5d720203bf8b27bc9fb6885"
+    },
+    {
+      "name": "json",
+      "version": "0.1.2",
+      "description": "Lightweight JSON encoding and decoding",
+      "upstream": "https://github.com/rxi/json.lua",
+      "revision": "dbf4b2dd2eb7c23be2773c89eb059dadd6436f94",
+      "dependencies": {},
+      "modules": {
+        "json": "init.lua"
+      },
+      "files": [
+        {
+          "source": "json.lua",
+          "file": "json.lua",
+          "upstream_sha256": "0eaccda57fabc0330736de25f45cf589821a42b5e0fe02e4e3125f7dc0bf2b7e",
+          "sha256": "0eaccda57fabc0330736de25f45cf589821a42b5e0fe02e4e3125f7dc0bf2b7e"
+        }
+      ],
+      "notes": "JSON null decodes to nil; use dkjson when you need to preserve null entries.",
+      "manifest_sha256": "37530471019fde108bc49023dfa327e659d1d90db0bb034525ebc33bb6c5e848",
+      "license_sha256": "e91de14a15c126e70df8d30132529199211b47c5c899f82285a2ee943748f6f2"
+    },
+    {
+      "name": "lume",
+      "version": "2.3.0",
+      "description": "Table, string, collection and math utilities",
+      "upstream": "https://github.com/rxi/lume",
+      "revision": "98847e7812cf28d3d64b289b03fad71dc704547d",
+      "dependencies": {},
+      "modules": {
+        "lume": "init.lua"
+      },
+      "files": [
+        {
+          "source": "lume.lua",
+          "file": "init.lua",
+          "upstream_sha256": "fb2856d60eb48516c8aa04de1e8b58b355a56fb7a05fd1170cfe330f8ad69b1a",
+          "sha256": "a46e7d3a7eaa7104dbb84e452646a2753f43a4353002e4929c2aeecd9f020951"
+        }
+      ],
+      "notes": "trace() works without debug.getinfo and prints ?:0 when caller information is unavailable.",
+      "manifest_sha256": "f27cfbd41fc2eae3fba81a21d188ea338c820dc4c154b10b295ca3541d07c010",
+      "license_sha256": "e91de14a15c126e70df8d30132529199211b47c5c899f82285a2ee943748f6f2"
+    },
+    {
+      "name": "lust",
+      "version": "0.2.0",
+      "description": "Unit tests, assertions and spies",
+      "upstream": "https://github.com/bjornbytes/lust",
+      "revision": "80acb4f748621ed3668548770a1df744d4e55d1d",
+      "dependencies": {},
+      "modules": {
+        "lust": "init.lua"
+      },
+      "files": [
+        {
+          "source": "lust.lua",
+          "file": "init.lua",
+          "upstream_sha256": "d9bd5e031d998b94aae1c19c6fad8ad581a6f83829761cb18c7035b807a8b4d1",
+          "sha256": "d9bd5e031d998b94aae1c19c6fad8ad581a6f83829761cb18c7035b807a8b4d1"
+        }
+      ],
+      "notes": "Use nocolor() because CraftOS does not interpret ANSI color escapes.",
+      "manifest_sha256": "111fddadc34506bfd1070ab0696534358b4b9413e7a2d502932b2ee1728f4b03",
+      "license_sha256": "07d83afba451b428024b359344adbaf412b335455a3c956afcfe905b61f2a27c"
+    },
+    {
+      "name": "memoize",
+      "version": "2.0.0",
+      "description": "Memoization of function results",
+      "upstream": "https://github.com/kikito/memoize.lua",
+      "revision": "bd7a8b8694649f1388d7b0e09ebda62ae036843f",
+      "dependencies": {},
+      "modules": {
+        "memoize": "init.lua"
+      },
+      "files": [
+        {
+          "source": "memoize.lua",
+          "file": "init.lua",
+          "upstream_sha256": "c39fa800e6219501ca616bf6fdd1e26c04ae7cbadcb5402dd94b5329d3e6e68b",
+          "sha256": "c39fa800e6219501ca616bf6fdd1e26c04ae7cbadcb5402dd94b5329d3e6e68b"
+        }
+      ],
+      "notes": "Use with pure functions; results for changing external state can become stale.",
+      "manifest_sha256": "ee62b4d4e706e57f4e37837626121618d3f6bdada511dd34d1a6624c07585bbc",
+      "license_sha256": "78e3e82c7437456fb0dbddcfa0111b9d6cc372df3d752b45d6491e062865e5f6"
+    },
+    {
+      "name": "messagepack",
+      "version": "0.5.4",
+      "description": "Compact MessagePack serialization",
+      "upstream": "https://fperrad.frama.io/lua-MessagePack/",
+      "revision": "sha256:86e5aedc94342f1447b3cac26dfacc69f05b0827221cd5e44d3b623087b16f37",
+      "dependencies": {},
+      "modules": {
+        "MessagePack": "init.lua",
+        "messagepack": "init.lua"
+      },
+      "files": [
+        {
+          "source": "MessagePack.lua",
+          "file": "init.lua",
+          "upstream_sha256": "5c3a789400c9859439b5624b2ae271db65c3df09954a7aeeabd7bb0d03c7b65b",
+          "sha256": "8883b54c461f842283bb35f6cb92d4ecc5bba82267080ef4b4bb38b9c42ada7f"
+        }
+      ],
+      "notes": "https://fperrad.frama.io/lua-MessagePack/\nSource: LuaRocks lua-messagepack 0.5.4 source rock. LPM patch skips bytecode number-format inspection when string.dump is unavailable in CraftOS; uses the standard 8-byte Lua number fallback. Integers beyond exact IEEE-754 range can lose precision.",
+      "manifest_sha256": "1012038068290adb1cf0e08efe7888195b1eb306d379c0268bd56a1d80e63f04",
+      "license_sha256": "1dbe8e7da2d71088d4759da33a42eda89f5be90d1a9c0b823360a270d6628ed8"
+    },
+    {
+      "name": "middleclass",
+      "version": "4.1.1",
+      "description": "Classes, inheritance and mixins",
+      "upstream": "https://github.com/kikito/middleclass",
+      "revision": "359f0e2742f51ca77801b513ec91eb9029de8de4",
+      "dependencies": {},
+      "modules": {
+        "middleclass": "init.lua"
+      },
+      "files": [
+        {
+          "source": "middleclass.lua",
+          "file": "init.lua",
+          "upstream_sha256": "8eb396adfdfc221006eaaba6ef665310aec4e9d888e57ca263d5edc8a53fb535",
+          "sha256": "8eb396adfdfc221006eaaba6ef665310aec4e9d888e57ca263d5edc8a53fb535"
+        }
+      ],
+      "notes": "",
+      "manifest_sha256": "91318d2e6dccf8444828a987e3c3b13311f172fd8d465217eca0501550faa67d",
+      "license_sha256": "78e3e82c7437456fb0dbddcfa0111b9d6cc372df3d752b45d6491e062865e5f6"
+    },
+    {
+      "name": "moses",
+      "version": "2.1.0",
+      "description": "Functional collection operations and chaining",
+      "upstream": "https://github.com/Yonaba/Moses",
+      "revision": "6fe8d76d50a22d85fe064aaa80390b72381befed",
+      "dependencies": {},
+      "modules": {
+        "moses": "init.lua"
+      },
+      "files": [
+        {
+          "source": "moses.lua",
+          "file": "init.lua",
+          "upstream_sha256": "e68988d6b6dbef33fc10992b134f20d8b6f7e8a729957f212fef8d2436c68082",
+          "sha256": "e68988d6b6dbef33fc10992b134f20d8b6f7e8a729957f212fef8d2436c68082"
+        }
+      ],
+      "notes": "",
+      "manifest_sha256": "55e564b8fcaa3e7be66b8c621cf2306bd95166abd50b6ccb937f192e865790f0",
+      "license_sha256": "d49bb53cf66911f845306de0607cade6e38ac0788c0d51681d853378b955a9be"
+    },
+    {
+      "name": "pine3d",
+      "version": "0.1.0",
+      "description": "3D rendering for CC:Tweaked terminals",
+      "upstream": "https://github.com/Xella37/Pine3D",
+      "revision": "2fbbd2cebe9b1ce8a8fc173a2a8a7694878a62a4",
+      "dependencies": {},
+      "modules": {
+        "pine3d": "init.lua",
+        "Pine3D": "init.lua"
+      },
+      "files": [
+        {
+          "source": "Pine3D.lua",
+          "file": "pine3d__Pine3D.lua",
+          "upstream_sha256": "61bc92ea99d41d568038c47301624f0aa273ac4ae56502e486e580a1d5cc82dc",
+          "sha256": "61bc92ea99d41d568038c47301624f0aa273ac4ae56502e486e580a1d5cc82dc"
+        },
+        {
+          "source": "betterblittle.lua",
+          "file": "pine3d__betterblittle.lua",
+          "upstream_sha256": "cefe5f5e8bdc228398d99b986134cd5e866f2a5718bf3069eb1f8ad4bc6471c5",
+          "sha256": "cefe5f5e8bdc228398d99b986134cd5e866f2a5718bf3069eb1f8ad4bc6471c5"
+        },
+        {
+          "file": "init.lua",
+          "sha256": "1af8e6aa4aa5b83eb05514dbf9c2a185ac9cf0aa60bce1047320d2331286fa0f",
+          "source": "LPM adapter"
+        }
+      ],
+      "notes": "Upstream snapshot. Internal renderer is namespaced to avoid collisions. Model assets are optional and are not installed; see upstream for the model format.",
+      "manifest_sha256": "c7de60f3604be7cfaeb488290b9534d7a1ede440adf96aa5f7a8b7102d7440e4",
+      "license_sha256": "444047b85aa7b6394a6167d5e3c88aff7d1a0fc45a2f075575bfccb5d75d99d4"
+    },
+    {
+      "name": "pixelbox-lite",
+      "version": "0.1.0",
+      "description": "Teletext pixel graphics for terminals and monitors",
+      "upstream": "https://github.com/9551-Dev/pixelbox_lite",
+      "revision": "82098c8dca939b7689f119d0a577c311d4a09281",
+      "dependencies": {},
+      "modules": {
+        "pixelbox_lite": "init.lua"
+      },
+      "files": [
+        {
+          "source": "pixelbox_lite.lua",
+          "file": "init.lua",
+          "upstream_sha256": "e9923dc24ed6d968de668f42a3c324d0957778a709d93bc9190617c32889de99",
+          "sha256": "e9923dc24ed6d968de668f42a3c324d0957778a709d93bc9190617c32889de99"
+        }
+      ],
+      "notes": "Use require(\"pixelbox_lite\"). Requires a color terminal or monitor.",
+      "manifest_sha256": "2feaedbc078540e4ab9da16dd9ef817654a9e35096a99826908e648200025733",
+      "license_sha256": "14ee5b2b7a548a12e2285293c466f7ba8678bf4786c66a6e3a6256a546215360"
+    },
+    {
+      "name": "primeui",
+      "version": "0.1.0",
+      "description": "Composable UI components for CC:Tweaked",
+      "upstream": "https://github.com/MCJack123/PrimeUI",
+      "revision": "66f2d285897031a5ebdc60d3ab869a908dbff210",
+      "dependencies": {},
+      "modules": {
+        "primeui": "primeui/init.lua"
+      },
+      "files": [
+        {
+          "source": "borderBox.lua",
+          "file": "primeui__borderBox.lua",
+          "upstream_sha256": "f7e4f75c7907a7e9bd4a0a13d03ee1d48d70ef3e23045d066e6775ad26096e9d",
+          "sha256": "36f28b1b6321fee90497bd6ff69fcfc3d2549fc09d2c2d1a450e5c7ea28f0fa9"
+        },
+        {
+          "source": "button.lua",
+          "file": "primeui__button.lua",
+          "upstream_sha256": "55046098dd7db4019b6b2b314de08d8f29e73b7f88840a0e057adc20f01f9f70",
+          "sha256": "e32e295f08f70817ace865611a4ba3f6c9a4a806e777e84425999576d60bfb81"
+        },
+        {
+          "source": "centerLabel.lua",
+          "file": "primeui__centerLabel.lua",
+          "upstream_sha256": "5f55710630d039bd07933653d5e908604b18d725fc918bdead48c0939a7972f4",
+          "sha256": "f5d0eabfc89082d39f287da9432dc3cf61cd2c07c161606535b2fba285425d9f"
+        },
+        {
+          "source": "checkSelectionBox.lua",
+          "file": "primeui__checkSelectionBox.lua",
+          "upstream_sha256": "aa763223b6d23a8df7def4d37c3c741eac4e84123808c3efd13a02d1e7b6b1b9",
+          "sha256": "98ffc30492cf1540ffea24901f64a22bc3f82051724039dab4117563c5a01e78"
+        },
+        {
+          "source": "clickRegion.lua",
+          "file": "primeui__clickRegion.lua",
+          "upstream_sha256": "128a866aa0aa3c1c1826cbf67b9cff4a1224222106a1fdf275f406146b8dd49f",
+          "sha256": "f59d4be9b74fada010c8a32846d53a2a667761fd5ac7dd62f3f7b2ee971b756a"
+        },
+        {
+          "source": "drawImage.lua",
+          "file": "primeui__drawImage.lua",
+          "upstream_sha256": "5d9c5273deee988c862c58a77ce84da0104e2605553e3c14e35101271217d6f4",
+          "sha256": "7cc3c6d0ea2ee28af0773b2cbf0c24943781e7db77788621ef92e502bccfe1a6"
+        },
+        {
+          "source": "drawNft.lua",
+          "file": "primeui__drawNft.lua",
+          "upstream_sha256": "dca7cea12e7a1c9c34e084c5975158a057ce86292ef2017603bb65582a8d5759",
+          "sha256": "fc43bc9d98b22cc351e7ef4e746b4b8e401dbf8fe08485c7c362c48f6cdbe9a6"
+        },
+        {
+          "source": "drawText.lua",
+          "file": "primeui__drawText.lua",
+          "upstream_sha256": "71a8ce2290f68ff2a636001a4955352afee37e10559a0d489f00fa9157f3c570",
+          "sha256": "3b91df830ac4da0911faa3d468eb46197637ab6d235c30d90f5be374b53c45bd"
+        },
+        {
+          "source": "horizontalLine.lua",
+          "file": "primeui__horizontalLine.lua",
+          "upstream_sha256": "198ff0198154223847039bd407a397a863b0039e98e6049ab28a77b01dd12309",
+          "sha256": "ba40ddde8b789596dddf1eef911753a74c62c7eb1a38538f33a77665642d77c9"
+        },
+        {
+          "source": "init.lua",
+          "file": "primeui__init.lua",
+          "upstream_sha256": "ba1288a6d07155b2571fcb040273fc90f470b432f85c004fb09526fafc31b814",
+          "sha256": "93a12e1b85b13b812f653e2896639749a3d145432dabd610e287d54d0c1662ea"
+        },
+        {
+          "source": "inputBox.lua",
+          "file": "primeui__inputBox.lua",
+          "upstream_sha256": "43717d22ae4280d0b1d8d71ef5f306a06a00c035ae05cc74c461628e0eec8c4a",
+          "sha256": "2de195c62014b2d0038d42d7a6b662c863b99e943d0e2967fabf0e3ae1f1430c"
+        },
+        {
+          "source": "interval.lua",
+          "file": "primeui__interval.lua",
+          "upstream_sha256": "af0a48dbf3e0f8cf1f37f7b6e3446ec93fbe202b2061abbf61930e5bd4a98489",
+          "sha256": "02ecbdd8004a51889eed8fba050b35a6395ac3806e78301cb88ab33d932880d9"
+        },
+        {
+          "source": "keyAction.lua",
+          "file": "primeui__keyAction.lua",
+          "upstream_sha256": "75e19133f4bd9ed3e63f48d2e9bd9beba6e86d389bb84563a85d2787ed371c1d",
+          "sha256": "141d59cd65380ca689d78f1d907bcc24d42e71585bdeba03b8d6cbfd641f5895"
+        },
+        {
+          "source": "keyCombo.lua",
+          "file": "primeui__keyCombo.lua",
+          "upstream_sha256": "5681125e4457dd302b7973d8b6cb906f75a045081f5f48b5c74bc534e09943f9",
+          "sha256": "05fe4a7447b09f4a2a9a0532777e2f8b6878e8754ca3ab3d87c2f1edf0303f18"
+        },
+        {
+          "source": "label.lua",
+          "file": "primeui__label.lua",
+          "upstream_sha256": "f9a4e450fa284e8fe6af0bf9b452ce7d3eafdabaf8689e453aa92d5100bc18e1",
+          "sha256": "6b20984c994b31279140a51aed256d5bb655e165cc43da10579e0bb9d2ff267c"
+        },
+        {
+          "source": "progressBar.lua",
+          "file": "primeui__progressBar.lua",
+          "upstream_sha256": "f534537144bcdaf0bc915d883039e590481ffa9d3da889d048388e4ff16df1e7",
+          "sha256": "091eb9529b4554bf72b5029e513e2b7c915037065e7a2fcca62a4aa9b8ef2c77"
+        },
+        {
+          "source": "scrollBox.lua",
+          "file": "primeui__scrollBox.lua",
+          "upstream_sha256": "75b72943189621cddf38aee2e256bd5114b4922e88135e0d0fc20f0386bc0d25",
+          "sha256": "8d49b23cf1577ddd51ef087884153196cad5e315afa06896b832f903d2c4d157"
+        },
+        {
+          "source": "selectionBox.lua",
+          "file": "primeui__selectionBox.lua",
+          "upstream_sha256": "e66226af4a64f1e353b79abeff810e3ecec231612a7e32ece58032ecbf74c060",
+          "sha256": "269482289b65fff109992be89dc7fca8da00e20d2cc9cca283674b7c5829a452"
+        },
+        {
+          "source": "textBox.lua",
+          "file": "primeui__textBox.lua",
+          "upstream_sha256": "007d569602feae6e3057bb77c5e6decb0b131f9b04044b70599df028f5ca7889",
+          "sha256": "337db328ce81de1ac1d75ac235003d8d67d2b51285844966dfa6a3db9af9f01c"
+        },
+        {
+          "source": "timeout.lua",
+          "file": "primeui__timeout.lua",
+          "upstream_sha256": "850f6231e93fd5777cb83d76ddcd558eeeda50f1cac5eb1fa61c650fc8fd95e0",
+          "sha256": "47c48d47c12cc39480bd06761f2eea5e6f9914723c8211cb4043a10f13e85fd1"
+        },
+        {
+          "source": "toggleButton.lua",
+          "file": "primeui__toggleButton.lua",
+          "upstream_sha256": "63985239764d2ccdc28d9c15e6d77163e60af730f5cc3c62aab3a7786f4ba8e9",
+          "sha256": "09c6fd56a750b21dbf11c254042e981c3316df8d0bffc47a402bae58313fa37d"
+        },
+        {
+          "source": "util.lua",
+          "file": "primeui__util.lua",
+          "upstream_sha256": "1f26f4611660b013c42f7e80244b0c19ab06defeb3308012bcfb67db928b3ccc",
+          "sha256": "c2d2ac2603c8d90500d49d02bdf2654f6d6d19b1707fe704a7d0a09b1390303b"
+        },
+        {
+          "source": "verticalLine.lua",
+          "file": "primeui__verticalLine.lua",
+          "upstream_sha256": "36b1c02f2597fac64a177feb5957b3f9a01a8950e304f9d4567b586c6fbae93e",
+          "sha256": "9654b6b84770f2cd97080a713ace14a0e465b84a5cd662cd513bb89d266fee57"
+        }
+      ],
+      "notes": "LPM namespaces all component imports under primeui.* to avoid exporting generic util/button modules. No upstream algorithms are changed.",
+      "manifest_sha256": "2a7c9d75ec1a68cd36798fa2b9833bd816380aa92b935a64561aa422df5f6a51",
+      "license_sha256": "fd9c98d84e767d0861ab1d042ee8996f8dfe71cd17997dc4e349d2944b05e3ed"
+    },
+    {
+      "name": "semver",
+      "version": "1.2.1",
+      "description": "Semantic version parsing and comparison",
+      "upstream": "https://github.com/kikito/semver.lua",
+      "revision": "a4b708ba243208d46e575da870af969dca46a94d",
+      "dependencies": {},
+      "modules": {
+        "semver": "init.lua"
+      },
+      "files": [
+        {
+          "source": "semver.lua",
+          "file": "init.lua",
+          "upstream_sha256": "36c3b583bc109d825d91acf436e5d3eb58d9cad8ee075fde0604cb3a94586a88",
+          "sha256": "36c3b583bc109d825d91acf436e5d3eb58d9cad8ee075fde0604cb3a94586a88"
+        }
+      ],
+      "notes": "",
+      "manifest_sha256": "16a8c43434b5257c58d4eb6dc6f624fbefb320aab558f076c6886e327c01a5c5",
+      "license_sha256": "78e3e82c7437456fb0dbddcfa0111b9d6cc372df3d752b45d6491e062865e5f6"
+    },
+    {
+      "name": "sha2",
+      "version": "0.1.0",
+      "description": "Pure Lua SHA family hashes and HMAC",
+      "upstream": "https://github.com/Egor-Skriptunoff/pure_lua_SHA",
+      "revision": "6adac177c16c3496899f69d220dfb20bc31c03df",
+      "dependencies": {},
+      "modules": {
+        "sha2": "init.lua"
+      },
+      "files": [
+        {
+          "source": "sha2.lua",
+          "file": "init.lua",
+          "upstream_sha256": "62d2e0885931a1f14db87e61cb3d74936bb5b1e19eb2b4994ab04c03d78f9ed6",
+          "sha256": "62d2e0885931a1f14db87e61cb3d74936bb5b1e19eb2b4994ab04c03d78f9ed6"
+        }
+      ],
+      "notes": "Upstream snapshot with LPM packaging version 0.1.0. Large inputs may need cooperative scheduling on real computers.",
+      "manifest_sha256": "4fd653d515f0c305521e6eaf2183b2e287d386226506a84788427564f00d1b2c",
+      "license_sha256": "293975dabedb0ccfc16e16d5c054d5d5848539ff9441be57d44952d275d5fbbe"
+    },
+    {
+      "name": "stateful",
+      "version": "1.0.5",
+      "description": "State-dependent behavior for Middleclass objects",
+      "upstream": "https://github.com/kikito/stateful.lua",
+      "revision": "bf0da2b5a9201a9a31223a1b5b0d0bef2817c71c",
+      "dependencies": {
+        "middleclass": "^4.1.1"
+      },
+      "modules": {
+        "stateful": "init.lua"
+      },
+      "files": [
+        {
+          "source": "stateful.lua",
+          "file": "init.lua",
+          "upstream_sha256": "c7b6d55d84f0be918b1349c7bffb2056a169394dfa9b2f2bf4e6238d2a9e9fcb",
+          "sha256": "c7b6d55d84f0be918b1349c7bffb2056a169394dfa9b2f2bf4e6238d2a9e9fcb"
+        }
+      ],
+      "notes": "Depends on Middleclass.",
+      "manifest_sha256": "998835751cc6ec03a678f5a9c608eaa0e663f98f040984bb487406125ff41487",
+      "license_sha256": "78e3e82c7437456fb0dbddcfa0111b9d6cc372df3d752b45d6491e062865e5f6"
+    },
+    {
+      "name": "statemachine",
+      "version": "1.0.0",
+      "description": "Finite state machines with transitions and callbacks",
+      "upstream": "https://github.com/kyleconroy/lua-state-machine",
+      "revision": "96fc10ee123479cf2e5fb8ffe9cdde2fd6df0877",
+      "dependencies": {},
+      "modules": {
+        "statemachine": "init.lua"
+      },
+      "files": [
+        {
+          "source": "statemachine.lua",
+          "file": "init.lua",
+          "upstream_sha256": "95affa1ad7a9e2a4629cce4b321fbf49cf521cce6e9be5e92f035f7e64f9275c",
+          "sha256": "95affa1ad7a9e2a4629cce4b321fbf49cf521cce6e9be5e92f035f7e64f9275c"
+        }
+      ],
+      "notes": "",
+      "manifest_sha256": "bd5b023bb6d4b4c6d3ac1f97595e205d9bcfd668328b87061df25b2a072ec6e5",
+      "license_sha256": "4421dc0a6495e212632b404bea2323650f6bbcba4eaeaf39a5f56ea26e7e0c5d"
+    },
+    {
+      "name": "tween",
+      "version": "2.1.1",
+      "description": "Interpolation and easing of numerical properties",
+      "upstream": "https://github.com/kikito/tween.lua",
+      "revision": "9cdcd39339ec9e8b9c1a08e65aa0a8f2aab62172",
+      "dependencies": {},
+      "modules": {
+        "tween": "init.lua"
+      },
+      "files": [
+        {
+          "source": "tween.lua",
+          "file": "init.lua",
+          "upstream_sha256": "d53824850f1a771667bb8a190af506e935aeedbcfc3ecc379138c653b7886e15",
+          "sha256": "d53824850f1a771667bb8a190af506e935aeedbcfc3ecc379138c653b7886e15"
+        }
+      ],
+      "notes": "Call update with elapsed real seconds from your event loop; no background task is started.",
+      "manifest_sha256": "1dd8fca40609bfebefb1820146a3102acf37a97f497175b8deecb8c520ffd597",
+      "license_sha256": "20ee41957beeee670cbb0a83f8753476e2d05985d9f5460e924eba07b99e92ba"
+    }
+  ]
+}

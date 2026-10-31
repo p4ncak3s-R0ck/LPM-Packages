@@ -1,0 +1,5 @@
+local Deque = require("deque")
+local queue = Deque:new()
+queue:append("first")
+queue:unshift("urgent")
+print(queue:shift())
