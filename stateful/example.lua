@@ -1,0 +1,7 @@
+local class = require("middleclass")
+local Stateful = require("stateful")
+local Device = class("Device"):include(Stateful)
+Device:addState("Ready")
+local device = Device()
+device:gotoState("Ready")
+print(device:getStateStackDebugInfo())
