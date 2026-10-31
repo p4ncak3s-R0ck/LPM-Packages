@@ -1,0 +1,5 @@
+local binaryheap = require("binaryheap")
+local heap = binaryheap.minHeap()
+heap:insert(20)
+heap:insert(5)
+print(heap:pop())
