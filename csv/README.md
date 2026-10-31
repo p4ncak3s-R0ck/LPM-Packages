@@ -21,3 +21,5 @@ Revision: `09557e4608b02d136b9ae39a8fa0f36328fa1cec`. LPM package version: `0.1.
 Upstream lua-csv provides the reader. LPM adds csv.encode(rows) for rectangular arrays of strings, finite numbers and booleans; comma-separated CRLF output doubles embedded quotes. Files use the standard CraftOS io API.
 
 See LICENSE.txt for upstream terms. Source files are included in this repository; installation does not run an external installer.
+
+LPM adaptation: The encoder rejects sparse or keyed top-level row collections as well as inconsistent cells.

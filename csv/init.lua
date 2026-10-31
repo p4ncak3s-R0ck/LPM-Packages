@@ -11,7 +11,12 @@ function csv.encode(rows)
         if s:find('[,\r\n"]') then s = '"' .. s:gsub('"', '""') .. '"' end
         return s
     end
-    for _, row in ipairs(rows) do
+    local count = #rows
+    for key in pairs(rows) do
+        assert(type(key) == "number" and key % 1 == 0 and key >= 1 and key <= count, "rows must be a dense array")
+    end
+    for index = 1, count do
+        local row = rows[index]
         assert(type(row) == "table", "each row must be a table")
         width = width or #row
         local fields = {}
