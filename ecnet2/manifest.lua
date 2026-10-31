@@ -1,0 +1,30 @@
+return {
+    ["dependencies"] = {
+        ["ccryptolib"] = "^1.2.0",
+    },
+    ["description"] = "Encrypted modem connections for CC:Tweaked",
+    ["files"] = {
+        ["LICENSE.txt"] = "LICENSE.txt",
+        ["ecnet2__address_encoder.lua"] = "ecnet2/address_encoder.lua",
+        ["ecnet2__cipher_state.lua"] = "ecnet2/cipher_state.lua",
+        ["ecnet2__class.lua"] = "ecnet2/class.lua",
+        ["ecnet2__connection.lua"] = "ecnet2/connection.lua",
+        ["ecnet2__constants.lua"] = "ecnet2/constants.lua",
+        ["ecnet2__ecnetd.lua"] = "ecnet2/ecnetd.lua",
+        ["ecnet2__handshake_state.lua"] = "ecnet2/handshake_state.lua",
+        ["ecnet2__identity.lua"] = "ecnet2/identity.lua",
+        ["ecnet2__init.lua"] = "ecnet2/init.lua",
+        ["ecnet2__listener.lua"] = "ecnet2/listener.lua",
+        ["ecnet2__modems.lua"] = "ecnet2/modems.lua",
+        ["ecnet2__protocol.lua"] = "ecnet2/protocol.lua",
+        ["ecnet2__symmetric_state.lua"] = "ecnet2/symmetric_state.lua",
+        ["ecnet2__uid.lua"] = "ecnet2/uid.lua",
+    },
+    ["manifestVersion"] = 1,
+    ["modules"] = {
+        ["ecnet2"] = "ecnet2/init.lua",
+    },
+    ["name"] = "ecnet2",
+    ["type"] = "library",
+    ["version"] = "0.1.0",
+}
