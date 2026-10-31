@@ -21,3 +21,5 @@ Revision: `31f1d5cb1669c71b2e59f304438a47db4f6d4cd0`. LPM package version: `0.1.
 Upstream LuaDS Deque snapshot. The internal expect import is adapted to the built-in cc.expect module.
 
 See LICENSE.txt for upstream terms. Source files are included in this repository; installation does not run an external installer.
+
+LPM adaptation: Corrected upstream shift() length accounting and find() logical indexes after front operations.

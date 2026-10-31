@@ -1,4 +1,4 @@
--- LPM adaptation: use CraftOS cc.expect directly.
+-- LPM adaptations: CraftOS cc.expect; correct shift length and logical find indexes.
 local expect = require "cc.expect"
 
 ---@class Deque: List
@@ -83,6 +83,7 @@ function Deque:shift()
     local v = self._items[self._start+1]
     self._items[self._start+1] = nil
     self._start = self._start + 1
+    self._n = self._n - 1
     return v
 end
 
@@ -139,7 +140,7 @@ end
 function Deque:find(val)
     for i = self._start+1, self._start+self._n do
         if self._items[i] == val then
-            return i
+            return i - self._start
         end
     end
     return nil
