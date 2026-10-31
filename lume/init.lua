@@ -1,3 +1,4 @@
+-- LPM adaptation: trace remains usable when CraftOS omits debug.getinfo.
 --
 -- lume
 --
@@ -657,7 +658,7 @@ end
 
 
 function lume.trace(...)
-  local info = debug.getinfo(2, "Sl")
+  local info = debug and debug.getinfo and debug.getinfo(2, "Sl") or {short_src = "?", currentline = 0}
   local t = { info.short_src .. ":" .. info.currentline .. ":" }
   for i = 1, select("#", ...) do
     local x = select(i, ...)
