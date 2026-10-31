@@ -1,0 +1,42 @@
+name: Package catalog
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out packages
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: packages
+          persist-credentials: false
+      - name: Check out tested LPM version
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: p4ncak3s-R0ck/LPM
+          ref: ce22f5528b1bc74414edba1b99ab51eccd3954f3
+          path: lpm
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check lupa==2.8
+      - name: Check sources, licenses and syntax
+        run: python packages/tools/check_catalog.py
+      - name: Test the complete catalog through LPM
+        env:
+          LPM_ROOT: ${{ github.workspace }}/lpm
+        run: python packages/tests/catalog.py
+      - name: Check existing DNS, RFS and updater packages
+        env:
+          LPM_ROOT: ${{ github.workspace }}/lpm
+        run: |
+          python packages/dns-records/tests/run.py
+          python packages/dns-records/tests/install.py
+          python packages/rfs/tests/run.py
+          python packages/updater/tests/run.py
