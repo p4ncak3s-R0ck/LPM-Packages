@@ -1,0 +1,5 @@
+local lust = require("lust").nocolor()
+lust.describe("arithmetic", function()
+    lust.it("adds", function() lust.expect(2 + 2).to.equal(4) end)
+end)
+assert(lust.errors == 0)
